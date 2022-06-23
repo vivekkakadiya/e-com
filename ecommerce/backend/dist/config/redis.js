@@ -1,0 +1,13 @@
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _default = {
+  host: process.env.REDIS_HOST || "localhost",
+  password: process.env.REDIS_PASSWORD || null,
+  port: process.env.REDIS_PORT || 6379
+};
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9jb25maWcvcmVkaXMuanMiXSwibmFtZXMiOlsiaG9zdCIsInByb2Nlc3MiLCJlbnYiLCJSRURJU19IT1NUIiwicGFzc3dvcmQiLCJSRURJU19QQVNTV09SRCIsInBvcnQiLCJSRURJU19QT1JUIl0sIm1hcHBpbmdzIjoiOzs7Ozs7ZUFBZTtBQUVYQSxFQUFBQSxJQUFJLEVBQUVDLE9BQU8sQ0FBQ0MsR0FBUixDQUFZQyxVQUFaLElBQTBCLFdBRnJCO0FBSVhDLEVBQUFBLFFBQVEsRUFBR0gsT0FBTyxDQUFDQyxHQUFSLENBQVlHLGNBQVosSUFBOEIsSUFKOUI7QUFNWEMsRUFBQUEsSUFBSSxFQUFJTCxPQUFPLENBQUNDLEdBQVIsQ0FBWUssVUFBWixJQUEwQjtBQU52QixDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1xuXG4gICAgaG9zdDogcHJvY2Vzcy5lbnYuUkVESVNfSE9TVCB8fCBcImxvY2FsaG9zdFwiLFxuXG4gICAgcGFzc3dvcmQgOiBwcm9jZXNzLmVudi5SRURJU19QQVNTV09SRCB8fCBudWxsLFxuXG4gICAgcG9ydCAgOiBwcm9jZXNzLmVudi5SRURJU19QT1JUIHx8IDYzNzksXG5cbn0iXX0=
